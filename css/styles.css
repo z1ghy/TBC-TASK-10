@@ -1,0 +1,194 @@
+body {
+  font-family: Helvetica, Sans-Serif;
+}
+
+header {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  width: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+}
+
+.logo-center {
+  display: none;
+}
+
+.section-greece {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-solid {
+  cursor: pointer;
+}
+
+.section-greece img {
+  width: 100%;
+  margin-bottom: 84px;
+}
+
+.section-greece h2 {
+  display: flex;
+  font-size: 79px;
+  font-weight: 700;
+  line-height: 90.84px;
+  position: absolute;
+  color: white;
+}
+
+.section-greece p {
+  margin-top: 150px;
+  display: flex;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  position: absolute;
+  color: rgb(255, 255, 255);
+}
+
+.sec-flex-container {
+  display: flex;
+  margin-left: 100px;
+}
+
+.left-side h2 {
+  color: #636060;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.55px;
+  display: inline;
+}
+
+.left-side h1 {
+  color: #010101;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 32.2px;
+  margin-top: 9px;
+  margin-bottom: 37px;
+}
+.left-side p {
+  width: 235px;
+  height: 115px;
+  color: #636060;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  margin-right: 83px;
+}
+
+.right-side {
+  display: flex;
+  width: 957px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.right-side h1 {
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 21.85px;
+  color: #343232;
+  margin-bottom: 9px;
+  margin-top: 23px;
+}
+.right-side p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20.7px;
+  color: #636060;
+  width: 286px;
+}
+
+.right-side div {
+  margin-bottom: 56px;
+  margin-left: 33px;
+}
+
+@media (max-width: 1055px) {
+  .left-side p {
+    margin-right: 0px;
+  }
+
+  .left-side {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .sec-flex-container {
+    margin-left: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .right-side {
+    width: 100%;
+  }
+}
+
+@media (max-width: 850px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  .logo {
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 637px) {
+  header {
+    padding: 10px 10px;
+  }
+
+  .section-greece h2 {
+    margin-top: -100px;
+    font-size: 50px;
+  }
+
+  .section-greece p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+
+  .header-nav li {
+    display: none;
+  }
+
+  .header-nav i {
+    display: flex;
+    font-size: 35px;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-center {
+    display: block;
+    width: 40px;
+  }
+
+  body {
+    background-color: #f7a3e973;
+  }
+}
